@@ -1,0 +1,55 @@
+<div class="my_profile_photo_tab_root mw-full">
+    <h1 class="heading mb-24">Group Profile photo</h1>
+    <p class="my_profile_photo_tab_helper mb-24">
+        Choose a photo that will help learners get to know the Group.
+    </p>
+
+    <div class="d-flex">
+        <div class="cursor-pointer relative" id="photo_preview_wrapper">
+            <img id="my_profile_photo_tab_preview" src="./img/avatar.svg" alt="Profile photo" class="my_profile_photo_tab_avatar" style="background:#f0f0f0;">
+        </div>
+        <div class="min-w-0 ml-3 d-flex justify-content-between flex-column ">
+            <div class="d-flex align-items-center">
+                <p class="display_name mb-0 mr-2">Florida 1</p>
+                <span class="country-flag-emoji" title="🇦🇫">🇦🇫</span>
+            </div>
+
+            <div class="d-flex align-items-center mt-1">
+                <div class="d-flex gap-1 align-items-center">
+                    <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.67475 1.41704C7.77384 1.36193 7.88536 1.33301 7.99875 1.33301C8.11214 1.33301 8.22365 1.36193 8.32275 1.41704L14.3107 4.7437C14.4178 4.80042 14.5075 4.88526 14.57 4.9891C14.6324 5.09294 14.6654 5.21184 14.6654 5.33304V9.33304C14.6654 9.50985 14.5952 9.67942 14.4702 9.80444C14.3451 9.92946 14.1756 9.9997 13.9987 9.9997C13.8219 9.9997 13.6524 9.92946 13.5273 9.80444C13.4023 9.67942 13.3321 9.50985 13.3321 9.33304V6.46637L8.32275 9.24903C8.22365 9.30414 8.11214 9.33306 7.99875 9.33306C7.88536 9.33306 7.77384 9.30414 7.67475 9.24903L1.67475 5.9157C1.57087 5.85795 1.48432 5.77347 1.42406 5.67103C1.36381 5.56858 1.33203 5.45189 1.33203 5.33304C1.33203 5.21418 1.36381 5.09749 1.42406 4.99504C1.48432 4.8926 1.57087 4.80812 1.67475 4.75037L7.67475 1.41704ZM3.37208 5.33304L7.99875 7.9037L12.6254 5.33304L7.99875 2.76237L3.37208 5.33304ZM5.33208 9.9997C5.33208 9.82289 5.26184 9.65332 5.13682 9.5283C5.01179 9.40327 4.84223 9.33304 4.66541 9.33304C4.4886 9.33304 4.31903 9.40327 4.19401 9.5283C4.06899 9.65332 3.99875 9.82289 3.99875 9.9997V10.6664C3.99875 11.7272 4.42017 12.7447 5.17032 13.4948C5.92047 14.2449 6.93788 14.6664 7.99875 14.6664C9.05961 14.6664 10.077 14.2449 10.8272 13.4948C11.5773 12.7447 11.9987 11.7272 11.9987 10.6664V9.9997C11.9987 9.82289 11.9285 9.65332 11.8035 9.5283C11.6785 9.40327 11.5089 9.33304 11.3321 9.33304C11.1553 9.33304 10.9857 9.40327 10.8607 9.5283C10.7357 9.65332 10.6654 9.82289 10.6654 9.9997V10.6664C10.6654 11.3736 10.3845 12.0519 9.88437 12.552C9.38427 13.0521 8.70599 13.333 7.99875 13.333C7.2915 13.333 6.61323 13.0521 6.11313 12.552C5.61303 12.0519 5.33208 11.3736 5.33208 10.6664V9.9997Z" fill="#4D4C5C"/>
+                    </svg>
+                    <p class="ml-2 mb-0 my_profile_photo_tab_helper mb-0">English Group</p>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center mt-1">
+                <svg class="flex-shrink-0" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="12" y1="8" x2="12" y2="12"></line>
+                    <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                </svg>
+                <p class="ml-2 mb-0 my_profile_photo_tab_helper">Speaks Portuguese (B2)</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="photo_upload_status" class="mt-3 hidden" style="display:none;">
+        <div class="photo-upload-progress">
+            <span id="photo_upload_text">Uploading...</span>
+        </div>
+    </div>
+
+    <div class="mt-4 mb-24">
+        <button type="button" class="tab_btn_outline w-100">
+            Upload new photo
+        </button>
+    </div>
+
+    <div class="w-100 form-inline felement px-0" data-fieldtype="submit">
+            <input type="submit" class="btn btn-primary" name="submitbutton" id="id_submitbutton" value="Save">
+        <div class="form-control-feedback invalid-feedback" id="id_error_submitbutton">
+            
+        </div>
+    </div>
+</div>

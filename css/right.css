@@ -1,0 +1,233 @@
+.avatar {
+    width: 2.5rem;      
+    height: 2.5rem;     
+    border-radius: 9999px; 
+    object-fit: cover;
+}
+
+.preview_avatar {
+  min-width: 48px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #1211170F;
+}
+
+.group_profile_about_badge {
+  background: #CCE2FF;
+  border-radius: 4px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 500;
+  
+}
+
+.group-profile_btn:hover {
+  background: #f4f4f4;
+}
+
+.group-profile_btn {
+  height: 40px;
+  border-radius: 8px;
+  border: 2px solid var(--primary);
+  cursor: pointer;
+}
+
+/* right dropdown */
+
+/* Admin Right Sidebar */
+.group-settings-right {
+    width: 100%;
+    /* max-width: 413px; */
+    border: 1px solid #0000001F;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 9.38px 21.56px 0px #00000008, 0px 39.38px 39.38px 0px #00000008;
+}
+
+.group-settings-card {
+    background: var(--bg);
+    border: 1px solid #0000001F;
+    border-radius: 8px;
+    box-shadow: 0px 9.38px 21.56px 0px #00000008;
+    margin-bottom: 20px;
+}
+
+
+.pointer {
+    cursor: pointer;
+}
+
+/* Tutor Selector */
+.group-selector {
+    position: relative;
+}
+
+.hoverable_accent:hover {
+    color: var(--accent);
+    cursor: pointer;
+}
+
+.group-selector-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    height: 52px;
+    border-radius: 8px;
+    border: 0.5px solid #0000001A;
+}
+
+.group-selector-trigger:hover {
+    background: #f4f4f4;
+}
+
+.group-name {
+    font-weight: 500;
+    
+}
+
+.group-selector-trigger.open svg{
+  transform: rotate(180deg);
+}
+
+/* Selector Panel */
+.group-selector-panel {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 50;
+    width: 115%;
+    max-width: 538px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-top: 0.25rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.group-selector-panel.hidden {
+    display: none;
+}
+
+.group-selector-search {
+    padding: 0.75rem;
+}
+
+.group-search-input {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    height: 52px;
+    font-size: 0.875rem;
+    outline: none;
+}
+
+.group-search-input:focus {
+    /* border-color: var(--accent); */
+}
+
+.group-search-input::placeholder {
+    color: var(--muted);
+}
+
+/* Info Rows */
+.group-info-row {
+    display: flex;
+    align-items: center;
+    padding-inline: 12px;
+    border: 0.5px solid #00000033;
+    border-radius: 12px;
+    padding-block: 16px;
+}
+
+/* Edit Button */
+.group-edit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    height: 40px;
+    background: transparent;
+    color: var(--muted);
+    border: 2px solid #0000001F;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.group-edit-btn:hover {
+    background: #f4f4f4;
+    color:var(--primary)
+}
+
+.group-list .header {
+  color: var(--muted);
+  border-bottom: 1px solid var(--border);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.group-list .body {
+  color: var(--dark);
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.group-list .body:hover{
+  background: #F4F4F4;
+}
+
+.city-badge {
+  height: 32px;
+  width: 32px;
+  min-width: 32px;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+}
+
+.city-badge .heading {
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.city-badge .subheading {
+  font-weight: 400;
+  font-size: 6px;
+}
+
+.city-badge-large {
+  height: 48px;
+  width: 48px;
+  min-width: 48px;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+.city-badge-large .heading {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.city-badge-large .subheading {
+  font-weight: 400;
+  font-size: 10px;
+}
+
+
+.badge-c1 {
+  color: #747C27 !important;
+}
+
+.badge-c2 {
+  color: #a31791 !important;
+}
