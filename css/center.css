@@ -61,7 +61,7 @@
 
 /* logistics */
 /* dropdowns */
-.lat-group-selector-trigger {
+.lat-student-selector-trigger {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -73,24 +73,24 @@
     border-radius: 8px;
     border: 0.5px solid #0000001A;
 }
-.lat-group-selector-current {
+.lat-student-selector-current {
     display: flex;
     align-items: center;
     gap: 0.75rem;
 }
-.lat-group-avatar-sm {
+.lat-student-avatar-sm {
     width: 36px;
     height: 36px;
     border-radius: 50%;
     object-fit: cover;
 }
-.lat-group-tutor-name {
+.lat-student-tutor-name {
     font-weight: 500;
     color: #121117;
     font-size: 14px;
     font-weight: 400;
 }
-.lat-group-selector-panel {
+.lat-student-selector-panel {
     position: absolute;
     top: 100%;
     left: 0;
@@ -108,10 +108,10 @@
 }
 
 
-.lat-group-selector-search {
+.lat-student-selector-search {
     padding: 0.75rem;
 }
-.lat-group-search-input {
+.lat-student-search-input {
     width: 100%;
     padding: 0.5rem 0.75rem;
     border: 1px solid var(--border);
@@ -119,7 +119,7 @@
     font-size: 0.875rem;
     outline: none;
 }
-.lat-group-tutor-list {
+.lat-student-tutor-list {
     overflow-y: auto;
     max-height: 240px;
     padding: 12px;
@@ -129,13 +129,13 @@
     margin-bottom: 12px;
     scrollbar-width: none;
 }
-.lat-group-tutor-list .lat-group-tutor-item:nth-last-of-type(1) {
+.lat-student-tutor-list .lat-student-tutor-item:nth-last-of-type(1) {
     margin-bottom: 0;
 }
-.lat-group-tutor-item.selected {
+.lat-student-tutor-item.selected {
     background: #F4F4F4;
 }
-.lat-group-tutor-item {
+.lat-student-tutor-item {
     display: flex;
     align-items: center;
     gap: 0.75rem;
@@ -145,22 +145,22 @@
     border-radius: 12px;
     margin-bottom: 12px;
 }
-.lat-group-tutor-item .lat-group-avatar-sm {
+.lat-student-tutor-item .lat-student-avatar-sm {
     min-width: 40px;
     height: 40px;
 }
-.lat-group-avatar-sm {
+.lat-student-avatar-sm {
     width: 36px;
     height: 36px;
     border-radius: 50%;
     object-fit: cover;
 }
-.lat-group-tutor-item span {
+.lat-student-tutor-item span {
     font-size: 14px;
     color: #121117;
     font-weight: 500;
 }
-.lat-group-selector-panel.hidden {
+.lat-student-selector-panel.hidden {
     display: none;
 }
 /* dropdowns */

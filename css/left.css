@@ -1,18 +1,18 @@
-.group_profile_sidebar_item.group_profile_active {
+.student_profile_sidebar_item.student_profile_active {
     color: var(--my_profile_about_text);
     font-weight: 600;
     border-left-color: transparent;
 }
 
-.group_profile_sidebar_item:hover:not(.group_profile_active){
+.student_profile_sidebar_item:hover:not(.student_profile_active){
     color: var(--muted);
 }
-.group_profile_sidebar_item:hover {
+.student_profile_sidebar_item:hover {
     background: #F4F4F4;
 }
 
 
-.group_profile_sidebar_item {
+.student_profile_sidebar_item {
     position: relative;
     border-left: 4px solid transparent;
     padding: .5rem 0 .5rem 1rem;
@@ -22,7 +22,7 @@
     font-weight: 500;
 }
 
-.group_profile_sidebar_item.group_profile_active::before {
+.student_profile_sidebar_item.student_profile_active::before {
     content: "";
     position: absolute;
     left: -5px;

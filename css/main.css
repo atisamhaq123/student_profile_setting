@@ -15,11 +15,11 @@
     --border: #0000001F;
 }
 
-.wrapper-course:has(.group_setting_page) {
+.wrapper-course:has(.student_setting_page) {
     padding: 20px;
 }
 
-.group_setting_page {
+.student_setting_page {
     font-family: "Poppins", sans-serif;
     color: var(--primary);
 }
@@ -93,7 +93,7 @@
 }
 
 
-.group_setting_details {
+.student_setting_details {
     border: 1px solid #0000001F;
     border-radius: 8px;
     box-shadow: 0px 9.38px 21.56px 0px #00000008, 0px 39.38px 39.38px 0px #00000008;
@@ -101,7 +101,7 @@
 
 }
 
-.group_accordion_trigger {
+.student_accordion_trigger {
     border-radius: 8px;
     border: 1px solid var(--border);
     height: 75px;
@@ -110,19 +110,19 @@
 
 }
 
-.group_accordion_trigger svg {
+.student_accordion_trigger svg {
     transform: rotate(0deg);
 }
 
-.group_accordion_trigger.collapsed {
+.student_accordion_trigger.collapsed {
     background: #fff;
 }
 
-.group_accordion_trigger.collapsed svg {
+.student_accordion_trigger.collapsed svg {
     transform: rotate(180deg) !important;
 }
 
-.group_accordion_trigger:hover {
+.student_accordion_trigger:hover {
     border: 1px solid var(--dark);
 }
 
@@ -149,19 +149,19 @@ button:focus {
     max-width: 1280px;
 }
 
-.close_gaps .form-group {
+.close_gaps .form-student {
     margin-bottom: 12px !important;
 }
-.form-group {
+.form-student {
     display: block !important;
     margin-bottom: 24px !important;
 }
-.form-group .col-form-label {
+.form-student .col-form-label {
     text-align: left !important;
     margin-bottom: 8px !important;
     white-space: nowrap;
 }
-.form-group label {
+.form-student label {
     font-size: 16px;
     font-weight: 400;
     color: #121117;
@@ -169,7 +169,7 @@ button:focus {
 sup {
     top: -3px;
 }
-fieldset, .form-group .felement, .form-group .custom-select, .form-group .form-control {
+fieldset, .form-student .felement, .form-student .custom-select, .form-student .form-control {
     width: 100% !important;
     max-width: 100% !important;
     box-shadow: none;
@@ -211,7 +211,7 @@ fieldset, .form-group .felement, .form-group .custom-select, .form-group .form-c
     display: none;
 }
 
-.doublet .form-group {
+.doublet .form-student {
     max-width: 50% !important;
     margin: 0 !important;
 }
@@ -223,7 +223,7 @@ fieldset, .form-group .felement, .form-group .custom-select, .form-group .form-c
     margin: 0;
     background: transparent;
 }
-.form-group label {
+.form-student label {
     font-size: 16px;
     font-weight: 400;
     color: #121117 !important;
@@ -249,7 +249,7 @@ fieldset, .form-group .felement, .form-group .custom-select, .form-group .form-c
     color: #121117;
     cursor: pointer;
 }
-.checkboxes_section .form-group.fitem {
+.checkboxes_section .form-student.fitem {
     margin-bottom: 16px !important;
 }
 /* checkbox */

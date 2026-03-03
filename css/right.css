@@ -12,7 +12,7 @@
   border: 1px solid #1211170F;
 }
 
-.group_profile_about_badge {
+.student_profile_about_badge {
   background: #CCE2FF;
   border-radius: 4px;
   height: 24px;
@@ -23,11 +23,11 @@
   
 }
 
-.group-profile_btn:hover {
+.student-profile_btn:hover {
   background: #f4f4f4;
 }
 
-.group-profile_btn {
+.student-profile_btn {
   height: 40px;
   border-radius: 8px;
   border: 2px solid var(--primary);
@@ -37,7 +37,7 @@
 /* right dropdown */
 
 /* Admin Right Sidebar */
-.group-settings-right {
+.student-settings-right {
     width: 100%;
     /* max-width: 413px; */
     border: 1px solid #0000001F;
@@ -46,7 +46,7 @@
     box-shadow: 0px 9.38px 21.56px 0px #00000008, 0px 39.38px 39.38px 0px #00000008;
 }
 
-.group-settings-card {
+.student-settings-card {
     background: var(--bg);
     border: 1px solid #0000001F;
     border-radius: 8px;
@@ -60,7 +60,7 @@
 }
 
 /* Tutor Selector */
-.group-selector {
+.student-selector {
     position: relative;
 }
 
@@ -69,7 +69,7 @@
     cursor: pointer;
 }
 
-.group-selector-trigger {
+.student-selector-trigger {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -81,26 +81,26 @@
     border: 0.5px solid #0000001A;
 }
 
-.group-selector-trigger:hover {
+.student-selector-trigger:hover {
     background: #f4f4f4;
 }
 
-.group-name {
+.student-name {
     font-weight: 500;
     
 }
 
-.group-selector-trigger.open svg{
+.student-selector-trigger.open svg{
   transform: rotate(180deg);
 }
 
 /* Selector Panel */
-.group-selector-panel {
+.student-selector-panel {
     position: absolute;
     top: 100%;
     right: 0;
     z-index: 50;
-    width: 115%;
+    width: 100%;
     max-width: 538px;
     background: var(--bg);
     border: 1px solid var(--border);
@@ -112,15 +112,15 @@
     flex-direction: column;
 }
 
-.group-selector-panel.hidden {
+.student-selector-panel.hidden {
     display: none;
 }
 
-.group-selector-search {
+.student-selector-search {
     padding: 0.75rem;
 }
 
-.group-search-input {
+.student-search-input {
     width: 100%;
     padding: 0.5rem 0.75rem;
     border: 2px solid var(--border);
@@ -130,16 +130,16 @@
     outline: none;
 }
 
-.group-search-input:focus {
+.student-search-input:focus {
     /* border-color: var(--accent); */
 }
 
-.group-search-input::placeholder {
+.student-search-input::placeholder {
     color: var(--muted);
 }
 
 /* Info Rows */
-.group-info-row {
+.student-info-row {
     display: flex;
     align-items: center;
     padding-inline: 12px;
@@ -149,7 +149,7 @@
 }
 
 /* Edit Button */
-.group-edit-btn {
+.student-edit-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,71 +163,63 @@
     transition: background-color 0.15s, color 0.15s;
 }
 
-.group-edit-btn:hover {
+.student-edit-btn:hover {
     background: #f4f4f4;
     color:var(--primary)
 }
 
-.group-list .header {
-  color: var(--muted);
-  border-bottom: 1px solid var(--border);
-  font-size: 14px;
-  font-weight: 500;
+
+.lat-student-tutor-item.selected {
+    background: #F4F4F4;
+}
+  
+  
+.lat-student-tutor-item:hover {
+    background: #F4F4F4;
 }
 
-.group-list .body {
-  color: var(--dark);
-  font-size: 15px;
-  font-weight: 400;
-  border-radius: 8px;
-  cursor: pointer;
+.lat-student-tutor-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.625rem 1rem;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
 }
 
-.group-list .body:hover{
-  background: #F4F4F4;
+.lat-student-tutor-item .lat-student-avatar-sm {
+    min-width: 40px;
+    height: 40px;
 }
 
-.city-badge {
-  height: 32px;
-  width: 32px;
-  min-width: 32px;
-  border: 1px solid var(--border);
-  border-radius: 50%;
+.lat-student-avatar-sm {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-.city-badge .heading {
-  font-weight: 600;
-  font-size: 11px;
+.lat-student-tutor-item span {
+    font-size: 15px;
+    color: #121117;
 }
 
-.city-badge .subheading {
-  font-weight: 400;
-  font-size: 6px;
+.student-list {
+    overflow-y: auto;
+    max-height: 240px;
+    padding: 12px;
+    padding-bottom: 12px;
+    border: 1.07px solid #F4F4F8;
+    border-radius: 12px;
+    margin-inline: 12px;
+    scrollbar-width: none;
 }
 
-.city-badge-large {
-  height: 48px;
-  width: 48px;
-  min-width: 48px;
-  border: 1px solid var(--border);
-  border-radius: 4px;
-}
-
-.city-badge-large .heading {
-  font-weight: 600;
-  font-size: 14px;
-}
-
-.city-badge-large .subheading {
-  font-weight: 400;
-  font-size: 10px;
-}
-
-
-.badge-c1 {
-  color: #747C27 !important;
-}
-
-.badge-c2 {
-  color: #a31791 !important;
+.lat-student-avatar-sm {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
 }

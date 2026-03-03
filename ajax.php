@@ -19,12 +19,12 @@ if (!file_exists($formfile)) {
 
 require_once($formfile);
 
-// Dummy data (no groupid)
-$groupdata = [];
+// Dummy data (no studentid)
+$studentdata = [];
 
 // Instantiate the class dynamically
 $formclass = "\\local_lat_studentsettings\\form\\$tab";
-$forminstance = new $formclass($groupdata);
+$forminstance = new $formclass($studentdata);
 
 // Render via Moodle renderer (or fallback)
 if ($PAGE->get_renderer('local_lat_studentsettings')) {
@@ -32,7 +32,7 @@ if ($PAGE->get_renderer('local_lat_studentsettings')) {
     echo $renderer->render_form($forminstance, $tab);
 } else {
     // Minimal fallback: just display HTML for testing
-    echo "<div id='group-profile-form-container'>";
+    echo "<div id='student-profile-form-container'>";
     echo "<p>Loaded form: $tab</p>";
     echo "</div>";
 }

@@ -25,10 +25,10 @@
     'use strict';
 
     document.addEventListener('DOMContentLoaded', function () {
-        const selector = document.getElementById('group-selector');
-        const trigger = document.getElementById('group-selector-trigger');
-        const panel = document.getElementById('group-selector-panel');
-        const searchInput = document.getElementById('group-selector-search');
+        const selector = document.getElementById('student-selector');
+        const trigger = document.getElementById('student-selector-trigger');
+        const panel = document.getElementById('student-selector-panel');
+        const searchInput = document.getElementById('student-selector-search');
 
         if (!selector || !trigger || !panel) {
             return;
@@ -84,10 +84,10 @@
     });
     document.addEventListener("click", function (e) {
         // Find closest tutor selector trigger clicked
-        const trigger = e.target.closest(".lat-group-selector-trigger");
+        const trigger = e.target.closest(".lat-student-selector-trigger");
         if (trigger) {
-            const selector = trigger.closest(".lat-group-tutor-selector");
-            const panel = selector.querySelector(".lat-group-selector-panel");
+            const selector = trigger.closest(".lat-student-tutor-selector");
+            const panel = selector.querySelector(".lat-student-selector-panel");
 
             const isOpen = selector.getAttribute("data-open") === "true";
             selector.setAttribute("data-open", !isOpen);
@@ -99,10 +99,10 @@
         }
 
         // Click outside any selector → close all
-        document.querySelectorAll(".lat-group-tutor-selector").forEach(selector => {
+        document.querySelectorAll(".lat-student-tutor-selector").forEach(selector => {
             selector.setAttribute("data-open", "false");
-            const panel = selector.querySelector(".lat-group-selector-panel");
-            const trigger = selector.querySelector(".lat-group-selector-trigger");
+            const panel = selector.querySelector(".lat-student-selector-panel");
+            const trigger = selector.querySelector(".lat-student-selector-trigger");
             panel.classList.add("hidden");
             trigger.setAttribute("aria-expanded", "false");
         });
@@ -111,10 +111,10 @@
     // Close on Escape key
     document.addEventListener("keydown", function (e) {
         if (e.key === "Escape") {
-            document.querySelectorAll(".lat-group-tutor-selector").forEach(selector => {
+            document.querySelectorAll(".lat-student-tutor-selector").forEach(selector => {
                 selector.setAttribute("data-open", "false");
-                const panel = selector.querySelector(".lat-group-selector-panel");
-                const trigger = selector.querySelector(".lat-group-selector-trigger");
+                const panel = selector.querySelector(".lat-student-selector-panel");
+                const trigger = selector.querySelector(".lat-student-selector-trigger");
                 panel.classList.add("hidden");
                 trigger.setAttribute("aria-expanded", "false");
             });
