@@ -92,6 +92,13 @@
     font-weight: 400;
 }
 
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
 
 .student_setting_details {
     border: 1px solid #0000001F;
@@ -149,19 +156,19 @@ button:focus {
     max-width: 1280px;
 }
 
-.close_gaps .form-student {
+.close_gaps .form-group {
     margin-bottom: 12px !important;
 }
-.form-student {
+.form-group {
     display: block !important;
     margin-bottom: 24px !important;
 }
-.form-student .col-form-label {
+.form-group .col-form-label {
     text-align: left !important;
     margin-bottom: 8px !important;
     white-space: nowrap;
 }
-.form-student label {
+.form-group label {
     font-size: 16px;
     font-weight: 400;
     color: #121117;
@@ -169,7 +176,7 @@ button:focus {
 sup {
     top: -3px;
 }
-fieldset, .form-student .felement, .form-student .custom-select, .form-student .form-control {
+fieldset, .form-group .felement, .form-group .custom-select, .form-group .form-control {
     width: 100% !important;
     max-width: 100% !important;
     box-shadow: none;
@@ -211,7 +218,7 @@ fieldset, .form-student .felement, .form-student .custom-select, .form-student .
     display: none;
 }
 
-.doublet .form-student {
+.doublet .form-group {
     max-width: 50% !important;
     margin: 0 !important;
 }
@@ -223,7 +230,7 @@ fieldset, .form-student .felement, .form-student .custom-select, .form-student .
     margin: 0;
     background: transparent;
 }
-.form-student label {
+.form-group label {
     font-size: 16px;
     font-weight: 400;
     color: #121117 !important;
@@ -249,7 +256,7 @@ fieldset, .form-student .felement, .form-student .custom-select, .form-student .
     color: #121117;
     cursor: pointer;
 }
-.checkboxes_section .form-student.fitem {
+.checkboxes_section .form-group.fitem {
     margin-bottom: 16px !important;
 }
 /* checkbox */
