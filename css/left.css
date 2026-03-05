@@ -5,7 +5,7 @@
 }
 
 .student_profile_sidebar_item:hover:not(.student_profile_active){
-    color: var(--muted);
+    color: #4D4C5C;
 }
 .student_profile_sidebar_item:hover {
     background: #F4F4F4;
@@ -18,7 +18,7 @@
     padding: .5rem 0 .5rem 1rem;
     border-radius: 12px;
     display: block;
-    color: var(--muted);
+    color: #4D4C5C;
     font-weight: 500;
 }
 

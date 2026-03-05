@@ -6,7 +6,7 @@ require_once($CFG->libdir . '/formslib.php');
 
 use moodleform;
 
-class about extends moodleform
+class account extends moodleform
 {
     public function definition()
     {

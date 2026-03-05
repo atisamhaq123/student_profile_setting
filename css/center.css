@@ -1,3 +1,4 @@
+/* account */
 .outline_btn {
     border-radius: 8px;
     height: 44px;
@@ -15,4 +16,33 @@
     width: 160px;
     height: 160px;
     border: 1px solid #1211170F;
+}
+
+/* payment */
+.white_box {
+    border: 2px solid #DCDCE5;
+    border-radius: 4px;
+}
+
+.blue_box {
+    background: #D8F8F2;
+}
+
+.black_outline_btn {
+    border: 2px solid #121117;
+    border-radius: 8px;
+    padding: 10px 12px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.black_outline_btn:hover:not(:disabled) {
+    background: #F4F4F4;
+}
+
+.black_outline_btn:disabled {
+    border: 2px solid #A8A8B6;   /* Grey border */
+    color: #6A697C !important;   /* Text color (forced with !important) */
+    background: #DCDCE5;         /* Light grey background */
+    cursor: not-allowed;         /* Shows forbidden cursor */
 }

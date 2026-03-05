@@ -9,7 +9,8 @@
 :root {
     --primary: #121117;
     --dark: #000000;
-    --muted: #6b7280;
+    --muted: #A8A8B6;
+    --muted_light:#4D4C5C;
     --accent: #ff3b1f;
     --bg: #fff;
     --border: #0000001F;
@@ -58,6 +59,11 @@
     
 }
 
+.short_muted_light_text {
+     color: var(--muted_light);
+    font-weight: 400;
+    font-size: 14px;
+}
 .short_muted_text {
     color: var(--muted);
     font-weight: 400;
