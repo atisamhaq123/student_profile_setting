@@ -25,7 +25,9 @@
     color: var(--primary);
 }
 
-
+h3 {
+    color: var(--primary);
+}
 .heading {
     font-size: 30px;
     font-weight: 600;
@@ -80,6 +82,9 @@
     font-size: 14px !important;
 }
 
+.font-16 {
+    font-size: 16px !important;
+}
 
 
 .font-700 {
@@ -105,6 +110,7 @@
 .mt-24 {
     margin-top: 24px;
 }
+
 
 .student_setting_details {
     border: 1px solid #0000001F;
