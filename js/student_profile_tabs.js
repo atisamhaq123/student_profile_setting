@@ -8,6 +8,9 @@ $(document).ready(function($){
             data: { tab: tab }, // no studentid
             success: function(data) {
                 $('#student-profile-form-container').html(data);
+                 if (tab=="paymenthistory"){
+                    addPaymenRows();
+                }
             },
             error: function() {
                 $('#student-profile-form-container').html('<p>Error loading form1</p>');
@@ -29,6 +32,7 @@ $(document).ready(function($){
         if(firstTabElement.length){
             const firstTab = firstTabElement.data('tab');
             loadForm(firstTab); // first alert should show
+            
         }
     }
 

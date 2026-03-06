@@ -64,3 +64,43 @@
 .subscription_accordion_btn:not(.collapsed) svg{
     transform: rotate(180deg);
 }
+
+/* payment history */
+.payment_history_table {
+  width: 100%;
+  min-width: 900px; /* make table wider */
+  /* border-collapse: collapse; */
+}
+
+.payment_history_table th,
+.payment_history_table td {
+  padding: 14px 16px; /* more spacing */
+  text-align: left;
+  white-space: nowrap; /* prevent text breaking */
+  font-size: 14px;
+}
+
+.payment_history_table th {
+  font-weight: 600;
+  color: #6A697C;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto; /* horizontal scroll */
+}
+
+
+.payment_history_link {
+    font-weight: 500;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.payment_history_link:hover {
+    color: var(--accent);
+}
+
+tbody tr {
+    border-block: 1px solid #DCDCE5;
+}
