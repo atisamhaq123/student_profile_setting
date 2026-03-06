@@ -79,7 +79,7 @@
 
 .payment_history_table th,
 .payment_history_table td {
-    padding: 14px 16px;
+    padding: 14px 0px;
     /* more spacing */
     text-align: left;
     white-space: nowrap;
