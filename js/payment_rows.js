@@ -30,6 +30,5 @@ function addPaymenRows(){
         `;
 
     });
-    console.log(rows);
     $("#payment_history_body").append(rows);
 }
