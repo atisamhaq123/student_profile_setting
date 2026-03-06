@@ -12,7 +12,6 @@ class paymenthistory extends moodleform
     {
         global $OUTPUT, $CFG;
         $mform = $this->_form;       
-
         // SPECIAL Dropdowns
         $mform->addElement('html', $OUTPUT->render_from_template('local_lat_studentsettings/profile/pages/paymenthistory', []));
 

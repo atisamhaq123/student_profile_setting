@@ -41,10 +41,14 @@
 }
 
 .black_outline_btn:disabled {
-    border: 2px solid #A8A8B6;   /* Grey border */
-    color: #6A697C !important;   /* Text color (forced with !important) */
-    background: #DCDCE5;         /* Light grey background */
-    cursor: not-allowed;         /* Shows forbidden cursor */
+    border: 2px solid #A8A8B6;
+    /* Grey border */
+    color: #6A697C !important;
+    /* Text color (forced with !important) */
+    background: #DCDCE5;
+    /* Light grey background */
+    cursor: not-allowed;
+    /* Shows forbidden cursor */
 }
 
 /* subscriptions */
@@ -61,33 +65,37 @@
     border-radius: 0;
 }
 
-.subscription_accordion_btn:not(.collapsed) svg{
+.subscription_accordion_btn:not(.collapsed) svg {
     transform: rotate(180deg);
 }
 
 /* payment history */
 .payment_history_table {
-  width: 100%;
-  min-width: 900px; /* make table wider */
-  /* border-collapse: collapse; */
+    width: 100%;
+    min-width: 900px;
+    /* make table wider */
+    /* border-collapse: collapse; */
 }
 
 .payment_history_table th,
 .payment_history_table td {
-  padding: 14px 16px; /* more spacing */
-  text-align: left;
-  white-space: nowrap; /* prevent text breaking */
-  font-size: 14px;
+    padding: 14px 16px;
+    /* more spacing */
+    text-align: left;
+    white-space: nowrap;
+    /* prevent text breaking */
+    font-size: 14px;
 }
 
 .payment_history_table th {
-  font-weight: 600;
-  color: #6A697C;
+    font-weight: 600;
+    color: #6A697C;
 }
 
 .table-wrapper {
-  width: 100%;
-  overflow-x: auto; /* horizontal scroll */
+    width: 100%;
+    overflow-x: auto;
+    /* horizontal scroll */
 }
 
 
@@ -103,4 +111,31 @@
 
 tbody tr {
     border-block: 1px solid #DCDCE5;
+}
+
+/* lesson confirmation */
+.auto_confirmation .checkbox {
+    max-width: 100% !important;
+    padding-inline: 0 !important;
+}
+
+.auto_confirmation .checkbox .form-check {
+    padding: 0 !important;
+    background: #fff !important;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary);
+}
+
+.auto_confirmation .checkbox .form-check-input {
+    height: 20px;
+    min-width: 20px;
+    width: 20px;
+    margin: 6px 16px 0 0 !important;
+    accent-color: #121117;
+    cursor: pointer;
+}
+.auto_confirmation .checkbox .form-check label {
+    align-items: start !important;
+    cursor: pointer;
 }

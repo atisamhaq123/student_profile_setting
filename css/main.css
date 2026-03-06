@@ -61,6 +61,13 @@ h3 {
     
 }
 
+.prime_muted_text {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--muted_light);
+    
+}
+
 .short_muted_light_text {
      color: var(--muted_light);
     font-weight: 400;
