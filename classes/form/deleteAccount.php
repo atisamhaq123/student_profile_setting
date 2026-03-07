@@ -18,8 +18,11 @@ class deleteAccount extends moodleform
          // Email.
         $mform->addElement('text', 'Email', 'Email', ['placeholder' => 'email', 'class'=>"mt-24"]);
         $mform->setType('Email', PARAM_TEXT);
-
-        $this->add_action_buttons(false, 'Save Changes');
+        
+        $mform->addElement('html', '<div class="mt-5 w-100 d-flex align-items-center justify-content-end">');
+        $mform->addElement('html', '<button class="col-sm-5 mb-4 muted_box d-flex align-items-center small_heading justify-content-center">Delete account</button>');
+        $mform->addElement('html', '</div>');
+        
         $mform->addElement('html', '</div>');
 
     }
