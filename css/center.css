@@ -135,7 +135,30 @@ tbody tr {
     accent-color: #121117;
     cursor: pointer;
 }
+.auto_confirmation.calendar .checkbox .form-check label {
+    align-items: center !important;
+}
 .auto_confirmation .checkbox .form-check label {
     align-items: start !important;
     cursor: pointer;
+}
+
+.auto_confirmation.calendar .checkbox .form-check-input {
+    margin: 0px 16px 0 0 !important;
+}
+/* calendar*/
+
+.muted_box {
+    border: 2px solid #DCDCE5;
+    border-radius: 8px;
+    height: 48px;
+    background: #fff;
+    cursor: pointer;
+}
+button.muted_box:hover {
+    background: #F4F4F4;
+}
+
+.form_section .account_select .custom-select {
+    font-size: 16px !important;
 }

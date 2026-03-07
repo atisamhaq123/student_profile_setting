@@ -204,7 +204,7 @@ fieldset, .form-group .felement, .form-group .custom-select, .form-group .form-c
     height: 48px;
 }
 .lat-textarea .form-control, .form_section .form-control, .form_section .custom-select {
-    border-radius: 12px;
+    border-radius: 8px;
     border: 2px solid #0000001F;
     color: #121117;
 }
@@ -226,6 +226,10 @@ fieldset, .form-group .felement, .form-group .custom-select, .form-group .form-c
     display: flex;
     align-items: center;
     padding-block: 0;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+
 }
 
 .btn-primary:hover {

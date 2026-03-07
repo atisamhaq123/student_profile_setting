@@ -61,7 +61,7 @@ class account extends moodleform
 
         $mform->addElement('html', '</div>');
 
-        $mform->addElement('html', '<div class="d-flex align-items-start mt-24">');
+        $mform->addElement('html', '<div class="d-flex align-items-start mt-24 mb-3">');
         $mform->addElement('html', '<img src="./img/google.svg" class="mr-2">');
         
         $mform->addElement('html', '<div class="w-100">');
