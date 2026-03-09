@@ -362,7 +362,46 @@ fieldset,
     height: 60px;
 }
 
-.sucess_label {
+.green_label {
     color: #22AC0B;
+}
+
+.tab_link {
+    height: 56px;
+    color: #2B00FF;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid #00000033;
+    display: block;
+}
+.tab_link:hover {
+    background: #F4F4F4;
+    color: #2B00FF;
+}
+.tab_link:nth-last-of-type(1) {
+    border: none;
+}
+
+.badgeCohort {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    text-align: center;
+}
+.badgeCohort.purple {
+    background: #6D264E;
+}
+.badgeCohort.green {
+    background: #747C27;
+}
+.badgeCohort .title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+.badgeCohort .text {
+    font-size: 10px;
+    font-weight: 400;
+    color: #fff;
 }
 /* second tab */
