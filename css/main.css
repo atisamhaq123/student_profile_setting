@@ -351,17 +351,12 @@ fieldset,
 
 }
 
-.task_trigger {
-    border-radius: 12px;
-    border: 0.5px solid #00000033;
-    height: 60px;
-}
 
-.payment_pad {
+.white_pad {
     border: 0.5px solid #00000033;
     border-radius: 12px;
     background: #fff;
-    height: 62px;
+    height: 60px;
 }
 
 .sucess_label {
