@@ -10,7 +10,7 @@
     --primary: #121117;
     --dark: #000000;
     --muted: #A8A8B6;
-    --muted_light:#4D4C5C;
+    --muted_light: #4D4C5C;
     --accent: #FF2500;
     --bg: #fff;
     --border: #0000001F;
@@ -28,11 +28,13 @@
 h3 {
     color: var(--primary);
 }
+
 .heading {
     font-size: 30px;
     font-weight: 600;
-    
+
 }
+
 .heading_secondary {
     font-size: 24px;
     font-weight: 600;
@@ -45,34 +47,35 @@ h3 {
 
 .heading_medium {
     font-size: 18px;
-    
+
 }
 
 .small_heading {
     font-size: 14px;
     font-weight: 600;
     color: var(--primary);
-    
+
 }
 
 .prime_heading {
     font-size: 16px;
     font-weight: 600;
-    
+
 }
 
 .prime_muted_text {
     font-size: 16px;
     font-weight: 400;
     color: var(--muted_light);
-    
+
 }
 
 .short_muted_light_text {
-     color: var(--muted_light);
+    color: var(--muted_light);
     font-weight: 400;
     font-size: 14px;
 }
+
 .short_muted_text {
     color: var(--muted);
     font-weight: 400;
@@ -126,7 +129,7 @@ h3 {
     border: 1px solid #0000001F;
     border-radius: 8px;
     box-shadow: 0px 9.38px 21.56px 0px #00000008, 0px 39.38px 39.38px 0px #00000008;
-    
+
 
 }
 
@@ -181,36 +184,50 @@ button:focus {
 .close_gaps .form-group {
     margin-bottom: 12px !important;
 }
+
 .form-group {
     display: block !important;
     margin-bottom: 24px !important;
 }
+
 .form-group .col-form-label {
     text-align: left !important;
     margin-bottom: 8px !important;
     white-space: nowrap;
 }
+
 .form-group label {
     font-size: 16px;
     font-weight: 400;
     color: #121117;
 }
+
 sup {
     top: -3px;
 }
-fieldset, .form-group .felement, .form-group .custom-select, .form-group .form-control {
+
+fieldset,
+.form-group .felement,
+.form-group .custom-select,
+.form-group .form-control {
     width: 100% !important;
     max-width: 100% !important;
     box-shadow: none;
 }
-.form_section .form-control:not(textarea), .form_section .custom-select {
+
+.form_section .form-control:not(textarea),
+.form_section .custom-select {
     height: 48px;
 }
-.lat-textarea .form-control, .form_section .form-control, .form_section .custom-select {
+
+.lat-textarea .form-control,
+.form_section .form-control,
+.form_section .custom-select {
     border-radius: 8px;
     border: 2px solid #0000001F;
     color: #121117;
 }
+
 .form-inline.felement:has(.btn-secondary),
 .form-inline.felement:has(.btn-primary) {
     display: flex;
@@ -236,8 +253,8 @@ fieldset, .form-group .felement, .form-group .custom-select, .form-group .form-c
 }
 
 .btn-primary:hover {
-     background: rgba(255, 88, 60, 1) !important; 
-     border: 2px solid #000;
+    background: rgba(255, 88, 60, 1) !important;
+    border: 2px solid #000;
 }
 
 .fdescription.required {
@@ -250,21 +267,23 @@ fieldset, .form-group .felement, .form-group .custom-select, .form-group .form-c
 }
 
 /* checkbox */
-.checkboxes_section .checkbox .form-check
-    {
+.checkboxes_section .checkbox .form-check {
     padding: 0;
     margin: 0;
     background: transparent;
 }
+
 .form-group label {
     font-size: 16px;
     font-weight: 400;
     color: #121117 !important;
 }
+
 .checkboxes_section .custom-control .ios-switch-control-input {
     display: block !important;
     margin-right: 8px;
 }
+
 .checkboxes_section .form-check-input {
     accent-color: black;
     margin-right: 8px;
@@ -273,9 +292,11 @@ fieldset, .form-group .felement, .form-group .custom-select, .form-group .form-c
     margin: 0;
     cursor: pointer;
 }
+
 .checkboxes_section .custom-control.ios-switch .ios-switch-control-indicator {
     display: none !important;
 }
+
 .checkboxes_section.bold .custom-control.ios-switch span.text {
     font-weight: 500;
 }
@@ -286,7 +307,64 @@ fieldset, .form-group .felement, .form-group .custom-select, .form-group .form-c
     color: #121117;
     cursor: pointer;
 }
+
 .checkboxes_section .form-group.fitem {
     margin-bottom: 16px !important;
 }
+
 /* checkbox */
+
+
+/* second tab */
+.tabs_container .nav-tabs {
+    background: #f6f6f6;
+    border-radius: 8px;
+}
+
+.tabs_container .nav-tabs .nav-link {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #121117;
+    border: none;
+}
+
+.tabs_container .nav-tabs .nav-link.active:hover,
+.tabs_container .nav-tabs .nav-link:hover {
+    background-color: #f4f4f4;
+    color: #121117;
+
+}
+
+.tabs_container .nav-tabs .nav-link.active {
+    background-color: #fff;
+    border: 2px solid #DCDCE5;
+}
+
+.tab_box {
+    border: 1px solid #0000001F;
+    box-shadow: 0px 9.38px 21.56px 0px #00000008, 0px 39.38px 39.38px 0px #00000008;
+    border-radius: 8px;
+
+}
+
+.task_trigger {
+    border-radius: 12px;
+    border: 0.5px solid #00000033;
+    height: 60px;
+}
+
+.payment_pad {
+    border: 0.5px solid #00000033;
+    border-radius: 12px;
+    background: #fff;
+    height: 62px;
+}
+
+.sucess_label {
+    color: #22AC0B;
+}
+/* second tab */
