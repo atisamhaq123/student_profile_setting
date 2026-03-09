@@ -332,7 +332,10 @@ fieldset,
     border: none;
 }
 
-.tabs_container .nav-tabs .nav-link.active:hover,
+.tabs_container .nav-tabs .nav-link.active:hover {
+    color: #121117;
+    background: #fff;
+}
 .tabs_container .nav-tabs .nav-link:hover {
     background-color: #f4f4f4;
     color: #121117;
