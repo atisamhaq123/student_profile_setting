@@ -362,6 +362,16 @@ fieldset,
     height: 60px;
 }
 
+.hot_pad {
+    border: 2px solid #00000033;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.white_pad.auto {
+    height: auto !important;
+}
+
 .green_label {
     color: #22AC0B;
 }
@@ -404,4 +414,53 @@ fieldset,
     font-weight: 400;
     color: #fff;
 }
+
+.blue_text {
+    color: #001CB1 !important;   
+}
+
+.one_line {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* modals */
+#feedbackModal .modal-dialog {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    box-shadow: 3.63px 24.69px 58.1px 0px #00000026,  0px 8px 32px 0px #12111726, 0px 16px 48px 0px #12111726;
+
+}
+
+#feedbackModal .modal-dialog .close:hover,
+#feedbackModal .modal-dialog .close:focus {
+    cursor: pointer;
+    background: #f4f4f4;
+    color: #2c273d;
+    opacity: 1;
+}
+
+.close:hover::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' viewBox='0 0 24 24'%3E%3Cpath stroke='%232c273d' stroke-linecap='round' stroke-linejoin='round' stroke-width='2.5' d='M17.25 6.75L6.75 17.25'/%3E%3Cpath stroke='%232c273d' stroke-linecap='round' stroke-linejoin='round' stroke-width='2.5' d='M6.75 6.75L17.25 17.25'/%3E%3C/svg%3E%0A");
+}
+
+.arrow {
+    border: 1px solid #0000001F;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 47px;
+    height: 40px;
+}
+.arrow:hover {
+    background: #f4f4f4;
+}
+
+.rotate180 {
+    transform: rotate(180deg);
+}
+
+/* modals */
 /* second tab */

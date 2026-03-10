@@ -19,6 +19,7 @@ $PAGE->requires->css('/local/lat_studentsettings/css/main.css');
 $PAGE->requires->jquery(); // This ensures jQuery is loaded
 $PAGE->requires->js('/local/lat_studentsettings/js/script.js');
 $PAGE->requires->js('/local/lat_studentsettings/js/payment_rows.js');
+$PAGE->requires->js('/local/lat_studentsettings/js/profile_overview.js');
 $PAGE->requires->js(new moodle_url('/local/lat_studentsettings/js/student_profile_tabs.js'));
 
 echo $OUTPUT->header();
