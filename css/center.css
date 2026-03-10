@@ -53,9 +53,33 @@
 
 /* subscriptions */
 
-.three_dots:hover {
-    background: #F4F4F4;
+.three_dots:hover {   
+}
+
+.three_dots {
+    position: relative;
     border-radius: 4px;
+}
+.sub_dropdown {
+    border-radius: 8px;
+    box-shadow: 0px 8px 32px 0px #12111726, 0px 16px 48px 0px #12111726;
+    border: 1px solid #F4F4F8;
+    position: absolute;
+    top: 42px;
+    background: #fff;
+    left: 0;
+    width: 320px;
+    z-index: 1;
+}
+
+.sub_option:hover {
+    background: #F4F4F4;
+}
+.sub_dropdown 
+
+.sub_option {
+    cursor: pointer;
+    height: 56px;
 }
 
 .subscription_accordion_btn {
