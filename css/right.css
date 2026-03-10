@@ -223,3 +223,8 @@
     border-radius: 50%;
     object-fit: cover;
 }
+
+.short_muted_text[contenteditable="true"]{
+    border-bottom: 1px solid #121117;
+    outline:none;
+}
