@@ -1,3 +1,71 @@
+<div class="row mx-0 tabs_container">
+<section class="profile-card w-100">
+        <div class="card-header">
+            
+            <div class="attendance-legend">
+                <h2 id="chart-title">Overall Attendance</h2>
+                <div class="legend-item">
+                    <span class="color-dot main-class"></span>
+                    <span id="main-class-label">Main Class</span>
+                    <div class="checkbox-wrapper checked">
+                        <i class="fas fa-check"></i>
+                    </div>
+                </div>
+                <div class="legend-item">
+                    <span class="color-dot practice-class"></span>
+                    <span id="practice-class-label">Practice Class</span>
+                    <div class="checkbox-wrapper checked">
+                        <i class="fas fa-check"></i>
+                    </div>
+                </div>
+                <div class="controls-container">
+                    <div class="attendance-controls">
+                        <button class="control-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <div class="select-set" onclick="toggleDropdown()">
+                            <span id="time-period-label">Weekly 1-5</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <button class="control-btn next" disabled=""><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chart-container">
+            <div class="y-axis">
+                <span>100</span><span>90</span><span>80</span><span>70</span><span>60</span><span>50</span><span>40</span><span>30</span><span>20</span><span>10</span>
+            </div>
+            <div class="chart-bars" id="chart-bars-container">
+                <div class="bar-group" style="width: 60px;">
+                    <div class="bar-wrapper">
+                        <div class="bar-text text-center" style="top: 324px;"><p class="my-0">0%</p><p class="my-0"> 0/0Hrs</p></div>
+                        <div class="bar blue" style="height: 0%;"></div>
+                        <div class="bar-text2 text-center""  style="top: 324px;"><p class="my-0">0%</p><p class="my-0"> 0/0Hrs</p></div>
+                    </div>
+                    <div class="bar-label">17/8-23/8</div>
+               </div>
+                 <div class="bar-group" style="width: 60px;">
+                    <div class="bar-wrapper">
+                        <div class="bar-text text-center" style="top: 324px;"><p class="my-0">0%</p><p class="my-0"> 0/0Hrs</p></div>
+                        <div class="bar blue" style="height: 0%;"></div>
+                        <div class="bar-text2 text-center""  style="top: 324px;"><p class="my-0">0%</p><p class="my-0"> 0/0Hrs</p></div>
+                    </div>
+                    <div class="bar-label">17/8-23/8</div>
+               </div>
+                 <div class="bar-group" style="width: 60px;">
+                    <div class="bar-wrapper">
+                        <div class="bar-text text-center" style="top: 324px;"><p class="my-0">0%</p><p class="my-0"> 0/0Hrs</p></div>
+                        <div class="bar blue" style="height: 0%;"></div>
+                        <div class="bar-text2 text-center""  style="top: 324px;"><p class="my-0">0%</p><p class="my-0"> 0/0Hrs</p></div>
+                    </div>
+                    <div class="bar-label">17/8-23/8</div>
+               </div>
+               
+            </div>
+    </section>
+</div>
+
+
+
 <div class="row mx-n2 tabs_container">
     <div class="col-lg-7 px-2">
         <div class="p-3 tab_box h-100">

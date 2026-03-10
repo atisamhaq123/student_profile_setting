@@ -15,7 +15,7 @@ class email extends moodleform
         $mform->addElement('html', '<h3 class="heading mb-3">' . 'Email' . '</h3>');
         
          // Email.
-        $mform->addElement('text', 'Email', 'Email Name', ['placeholder' => 'email']);
+        $mform->addElement('text', 'Email', 'Email', ['placeholder' => 'email']);
         $mform->setType('Email', PARAM_TEXT);
 
         $this->add_action_buttons(false, 'Save Changes');
