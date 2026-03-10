@@ -172,5 +172,38 @@
         }
 
     });
-
+    
 })();
+
+
+// dropdown
+$(document).ready(function() {
+    // Only toggle when clicking the SVG
+    $(document).on('click', '.three_dots .pointer', function(e) {
+        e.stopPropagation(); // Prevent document click from closing immediately
+
+        const $dropdown = $(this).closest('.three_dots').find('.sub_dropdown');
+
+        // Close all other dropdowns
+        $('.sub_dropdown').not($dropdown).addClass('d-none');
+
+        // Toggle this dropdown
+        if ($dropdown.length) {
+            $dropdown.toggleClass('d-none');
+        }
+    });
+
+    // Click outside closes all dropdowns
+    $(document).on('click', function() {
+        $('.sub_dropdown').addClass('d-none');
+    });
+
+    // Prevent closing when clicking inside the dropdown
+    $(document).on('click', '.sub_dropdown', function(e) {
+        e.stopPropagation();
+    });
+});
+// dropdown
+
+
+
