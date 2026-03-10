@@ -53,7 +53,8 @@
 
 /* subscriptions */
 
-.three_dots:hover {   
+li {
+    list-style: none;
 }
 
 .three_dots {

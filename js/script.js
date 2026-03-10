@@ -172,14 +172,14 @@
         }
 
     });
-    
+
 })();
 
 
 // dropdown
-$(document).ready(function() {
+$(document).ready(function () {
     // Only toggle when clicking the SVG
-    $(document).on('click', '.three_dots .pointer', function(e) {
+    $(document).on('click', '.three_dots .pointer', function (e) {
         e.stopPropagation(); // Prevent document click from closing immediately
 
         const $dropdown = $(this).closest('.three_dots').find('.sub_dropdown');
@@ -194,16 +194,26 @@ $(document).ready(function() {
     });
 
     // Click outside closes all dropdowns
-    $(document).on('click', function() {
+    $(document).on('click', function () {
         $('.sub_dropdown').addClass('d-none');
     });
 
     // Prevent closing when clicking inside the dropdown
-    $(document).on('click', '.sub_dropdown', function(e) {
+    $(document).on('click', '.sub_dropdown', function (e) {
         e.stopPropagation();
     });
+
+    // dropdown
+
+
+    // transfer balance popup
+    $(document).on('click', '.open_transfer_lesson', function (e) {
+        e.stopPropagation(); // prevent bubbling
+        $('#transfer-balance-screen-1').addClass('active');
+        $('.backdrop-level-3').addClass('active');
+
+    });
+    // transfer balance popup
+
 });
-// dropdown
-
-
 
